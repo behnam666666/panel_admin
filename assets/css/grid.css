@@ -1,0 +1,45 @@
+.header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    line-height: 3.5rem;
+    z-index: 1000;
+    display: flex;
+    justify-content:space-around ;
+    align-items: stretch;
+    background-color: aqua;
+
+}
+
+.logo{
+    max-height: 3.5rem;
+}
+
+.sidebar-header{
+    flex:0 0 14rem;
+
+}
+
+.body-header{
+    background-color: #ffff;
+    width: calc(100% - 14rem);
+
+}
+
+
+
+.search-area{
+    background-color: #dcdcdc;
+    padding: .3rem .6rem;
+    border-radius: 2rem;
+    /* margin: 6rem; */
+}
+
+.search-input{
+    background-color: rgba(0, 0, 0, 0);
+    outline: none;
+    border: none;
+    margin: .6rem;
+
+}
