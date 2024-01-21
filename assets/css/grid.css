@@ -438,5 +438,13 @@
         width: 100%;
         z-index: 1;
     }
+
+
+    .header-notification{
+        left: -11rem;
+    }
+    .header-comment{
+        left: -11rem;
+    }
     
 }
